@@ -24,6 +24,7 @@ Nothing here is a tutorial copy paste. Each project started as an assignment bri
 | Java Collections & Generics | [CollectionsGenericsSearxh](projects/java-collections/CollectionsGenericsSearxh) | Sorts and binary searches custom objects with a Comparator, plus generic min/max/sum methods | Java |
 | Java Generics | [GenericsPracticeCar](projects/java-generics/GenericsPracticeCar) | One generic stack and one generic print method, reused across two unrelated object types | Java |
 | Data Structures | [GP_PhoneDirectory](projects/data-structures/GP_PhoneDirectory) | A contact directory built on a hand written linked list and stack, with sorted insertion and search history tracking | Java |
+| Assembly Language | [ClinicAppointmentsSystem](projects/assembly-language/ClinicAppointmentsSystem) | A clinic booking menu written straight in 8086 assembly, DOS interrupts and all, group project | Assembly (x86) |
 
 More rows get added here as new courses and projects come in. This table is the map: pick a course, follow the link, read that project's own README for the full story.
 
@@ -52,12 +53,16 @@ university-projects/
     │       ├── src/
     │       ├── build.xml
     │       └── nbproject/
-    └── data-structures/
-        └── GP_PhoneDirectory/
+    ├── data-structures/
+    │   └── GP_PhoneDirectory/
+    │       ├── README.md
+    │       ├── src/
+    │       ├── build.xml
+    │       └── nbproject/
+    └── assembly-language/
+        └── ClinicAppointmentsSystem/
             ├── README.md
-            ├── src/
-            ├── build.xml
-            └── nbproject/
+            └── projectCO-lastCopy.asm
 ```
 
 Each course gets its own folder under `projects/`, and each project inside that folder is self contained with its own README. Nothing depends on anything outside its own folder, so you can clone the whole repo or just grab one project.
