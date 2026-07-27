@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4A00E0,100:8E2DE2&height=220&section=header&text=University%20Projects&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=A%20growing%20archive%20of%20coursework%2C%20labs%2C%20and%20side%20quests&descAlignY=55&descSize=18" width="100%"/>
 
-<a href="https://github.com/fahdah/university-projects">
+<a href="https://github.com/j8mb8gh55n-droid/university-projects">
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=8E2DE2&center=true&vCenter=true&width=650&lines=Operating+systems+today...;Data+structures+tomorrow;Every+course%2C+one+shelf;Built+one+assignment+at+a+time" alt="Typing SVG" />
 </a>
 
@@ -21,6 +21,7 @@ Nothing here is a tutorial copy paste. Each project started as an assignment bri
 | Course | Project | What it does | Language |
 |---|---|---|---|
 | Operating Systems | [OSProject](projects/operating-systems/OSProject) | Simulates disk scheduling (FCFS, SSTF, SCAN) and page replacement (FIFO, Optimal, LRU) algorithms from the inside | Java |
+| Java Collections & Generics | [CollectionsGenericsSearxh](projects/java-collections/CollectionsGenericsSearxh) | Sorts and binary searches custom objects with a Comparator, plus generic min/max/sum methods | Java |
 
 More rows get added here as new courses and projects come in. This table is the map: pick a course, follow the link, read that project's own README for the full story.
 
@@ -31,12 +32,18 @@ More rows get added here as new courses and projects come in. This table is the 
 ```
 university-projects/
 └── projects/
-    └── operating-systems/
-        └── OSProject/
-            ├── README.md        <- what this specific project is and how to run it
-            ├── src/              <- the actual source code
-            ├── build.xml         <- Ant build script (NetBeans generated)
-            └── nbproject/        <- NetBeans project metadata
+    ├── operating-systems/
+    │   └── OSProject/
+    │       ├── README.md        <- what this specific project is and how to run it
+    │       ├── src/              <- the actual source code
+    │       ├── build.xml         <- Ant build script (NetBeans generated)
+    │       └── nbproject/        <- NetBeans project metadata
+    └── java-collections/
+        └── CollectionsGenericsSearxh/
+            ├── README.md
+            ├── src/
+            ├── build.xml
+            └── nbproject/
 ```
 
 Each course gets its own folder under `projects/`, and each project inside that folder is self contained with its own README. Nothing depends on anything outside its own folder, so you can clone the whole repo or just grab one project.
