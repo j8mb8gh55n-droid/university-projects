@@ -23,6 +23,7 @@ Nothing here is a tutorial copy paste. Each project started as an assignment bri
 | Operating Systems | [OSProject](projects/operating-systems/OSProject) | Simulates disk scheduling (FCFS, SSTF, SCAN) and page replacement (FIFO, Optimal, LRU) algorithms from the inside | Java |
 | Java Collections & Generics | [CollectionsGenericsSearxh](projects/java-collections/CollectionsGenericsSearxh) | Sorts and binary searches custom objects with a Comparator, plus generic min/max/sum methods | Java |
 | Java Generics | [GenericsPracticeCar](projects/java-generics/GenericsPracticeCar) | One generic stack and one generic print method, reused across two unrelated object types | Java |
+| Data Structures | [GP_PhoneDirectory](projects/data-structures/GP_PhoneDirectory) | A contact directory built on a hand written linked list and stack, with sorted insertion and search history tracking | Java |
 
 More rows get added here as new courses and projects come in. This table is the map: pick a course, follow the link, read that project's own README for the full story.
 
@@ -45,8 +46,14 @@ university-projects/
     │       ├── src/
     │       ├── build.xml
     │       └── nbproject/
-    └── java-generics/
-        └── GenericsPracticeCar/
+    ├── java-generics/
+    │   └── GenericsPracticeCar/
+    │       ├── README.md
+    │       ├── src/
+    │       ├── build.xml
+    │       └── nbproject/
+    └── data-structures/
+        └── GP_PhoneDirectory/
             ├── README.md
             ├── src/
             ├── build.xml
